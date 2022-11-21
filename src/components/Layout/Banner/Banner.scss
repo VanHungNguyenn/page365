@@ -1,0 +1,108 @@
+.banner {
+	padding-bottom: 10rem;
+}
+
+.banner__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner__content,
+.banner__image {
+	flex: 1;
+}
+
+.banner__content {
+	display: flex;
+	flex-direction: column;
+}
+
+.banner__title {
+	font-size: 5rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+
+.banner__subtitlte {
+	font-size: 4rem;
+	font-weight: 500;
+	margin-bottom: 2rem;
+}
+
+.banner__description {
+	font-size: 2rem;
+	font-weight: 400;
+	margin-bottom: 3rem;
+}
+
+.banner__button {
+	margin-bottom: 3rem;
+}
+
+.banner__app {
+	display: flex;
+	align-items: center;
+}
+
+.banner__app-ggplay,
+.banner__app-appstore {
+	width: 20rem;
+}
+
+.banner__app-ggplay {
+	margin-right: 1rem;
+}
+
+.banner__image {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.banner__image-img {
+	width: 45rem;
+}
+
+@media screen and (max-width: 1024px) {
+	.banner {
+		padding-top: 10rem;
+	}
+
+	.banner__image {
+		display: none;
+	}
+
+	.banner__content {
+		align-items: center;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.banner__title {
+		font-size: 4rem;
+	}
+
+	.banner__subtitlte {
+		font-size: 3rem;
+	}
+
+	.banner__description {
+		font-size: 1.8rem;
+	}
+
+	.banner__app {
+		flex-direction: column;
+	}
+
+	.banner__app-ggplay,
+	.banner__app-appstore {
+		width: 20rem;
+	}
+
+	.banner__app-ggplay {
+		margin-right: 0;
+		margin-bottom: 3rem;
+	}
+}

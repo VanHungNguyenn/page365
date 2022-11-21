@@ -8,6 +8,8 @@
 	border-bottom: 1px solid var(--gray-color);
 	z-index: 100;
 	display: flex;
+	z-index: 100;
+	background-color: var(--white-color);
 }
 
 .header__wrapper {
@@ -19,7 +21,7 @@
 .header__logo {
 	display: flex;
 	align-items: center;
-	width: 14rem;
+	width: 6.5rem;
 	z-index: 100;
 	margin-right: 3rem;
 }

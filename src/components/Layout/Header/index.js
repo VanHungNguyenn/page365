@@ -90,7 +90,7 @@ const Header = () => {
 							</NavLink>
 						</li>
 						<li className='header__nav-item'>
-							<NavLink to='/Blogs' className='header__nav-link'>
+							<NavLink to='/blogs' className='header__nav-link'>
 								Blogs
 							</NavLink>
 						</li>
