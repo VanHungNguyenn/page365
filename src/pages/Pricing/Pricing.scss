@@ -1,0 +1,160 @@
+.pricing {
+	padding: 6rem 0;
+	background-color: var(--secondary-color);
+
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__title {
+		margin-bottom: 3rem;
+	}
+
+	&__subtitle {
+		margin-bottom: 5rem;
+		font-size: 2.2rem;
+	}
+
+	&__plans {
+		display: flex;
+		align-items: stretch;
+		justify-content: space-between;
+
+		flex-wrap: wrap;
+
+		margin-bottom: 6rem;
+	}
+
+	&__plan {
+		display: flex;
+		flex-direction: column;
+
+		width: calc(100% / 5 - 0.5rem);
+		border-radius: 1rem;
+		padding: 2rem 1rem;
+		background-color: var(--white-color);
+
+		&-image {
+			width: 100%;
+			margin-bottom: 2rem;
+		}
+
+		&-title {
+			margin-bottom: 2rem;
+			font-size: 2.5rem;
+			font-weight: 600;
+			text-align: center;
+		}
+
+		&-price {
+			margin-bottom: 2rem;
+			font-size: 3rem;
+			font-weight: 600;
+			text-align: center;
+			color: red;
+		}
+
+		&-desc {
+			margin-bottom: 2rem;
+			text-align: center;
+			color: var(--primary-color);
+		}
+
+		&-features {
+			margin-bottom: 4rem;
+			font-size: 1.4rem;
+		}
+
+		&-feature {
+			display: flex;
+			align-items: center;
+			margin-bottom: 0.5rem;
+
+			i {
+				margin-right: 1rem;
+				color: var(--primary-color);
+			}
+		}
+
+		&-button {
+			margin-top: auto;
+		}
+	}
+
+	&__button-more {
+		margin-bottom: 5rem;
+		margin-right: 0;
+	}
+}
+
+.pricing__table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.pricing__table-row th,
+.pricing__table-row td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.pricing__table-head {
+	background-color: var(--primary-color);
+	color: var(--white-color);
+	line-height: 3;
+}
+
+.pricing__table-body {
+	background-color: var(--white-color);
+	line-height: 2;
+}
+
+.pricing__table-head .pricing__table-row th:first-child {
+	font-size: 2rem;
+}
+
+.pricing__table-row th:not(:first-child),
+.pricing__table-row td:not(:first-child) {
+	text-align: center;
+}
+
+tr:not(:first-child):hover {
+	background-color: #f5f5f5;
+}
+
+.pricing__table-row .fa-check {
+	color: var(--primary-color);
+}
+
+.pricing__table-row .fa-times {
+	color: #f00;
+}
+
+@media screen and (max-width: 1024px) {
+	.pricing {
+		&__plans {
+			justify-content: space-evenly;
+		}
+
+		&__plan {
+			width: calc(100% / 3 - 2rem);
+			margin-bottom: 2rem;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.pricing {
+		&__plans {
+			justify-content: space-evenly;
+		}
+
+		&__plan {
+			width: 100%;
+			max-width: 50rem;
+		}
+	}
+}

@@ -22,6 +22,8 @@ import business1 from '~/images/business1.png'
 import business2 from '~/images/business2.png'
 import business3 from '~/images/business3.png'
 
+import contact from '~/images/contact.png'
+
 const trustedList = [
 	trusted1,
 	trusted2,
@@ -48,4 +50,5 @@ export {
 	business1,
 	business2,
 	business3,
+	contact,
 }
