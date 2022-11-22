@@ -30,7 +30,7 @@ const Header = () => {
 				<Link to='/' className='header__logo'>
 					<img src={logo} alt='Logo' />
 				</Link>
-				<div className={`header__menu ${toggleMenu && 'active'}`}>
+				<div className={`header__menu ${toggleMenu ? 'active' : ''}`}>
 					<ul className='header__nav-list'>
 						<li className='header__nav-item'>
 							<NavLink to='/' className='header__nav-link'>
