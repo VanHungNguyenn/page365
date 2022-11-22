@@ -15,13 +15,13 @@ const Footer = () => {
 							<NavLink to='/pricing'>Pricing</NavLink>
 						</div>
 						<div className='footer__sitemap__item'>
-							<NavLink to='/contact'>Contact</NavLink>
+							<NavLink to='/privacy'>Privacy</NavLink>
 						</div>
 						<div className='footer__sitemap__item'>
 							<NavLink to='/blogs'>Blogs</NavLink>
 						</div>
 						<div className='footer__sitemap__item'>
-							<NavLink to='/help-center'>Help center</NavLink>
+							<NavLink to='/contact'>Contact</NavLink>
 						</div>
 					</div>
 					<div className='footer__contact'>

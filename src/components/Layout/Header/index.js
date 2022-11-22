@@ -38,9 +38,7 @@ const Header = () => {
 							</NavLink>
 						</li>
 						<li className='header__nav-item'>
-							<div className='header__nav-link'>
-								Feature {/* font awesome  */}
-							</div>
+							<div className='header__nav-link'>Feature</div>
 							<ul className='header__subnav-list'>
 								<li className='header__subnav-item'>
 									<NavLink
@@ -82,11 +80,8 @@ const Header = () => {
 							</NavLink>
 						</li>
 						<li className='header__nav-item'>
-							<NavLink
-								to='/help-center'
-								className='header__nav-link'
-							>
-								Help center
+							<NavLink to='/privacy' className='header__nav-link'>
+								Privacy
 							</NavLink>
 						</li>
 						<li className='header__nav-item'>

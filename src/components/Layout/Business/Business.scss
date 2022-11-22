@@ -66,7 +66,7 @@
 }
 
 .tab-pane {
-	color: #333;
+	color: var(--white-color);
 	display: none;
 }
 
@@ -74,7 +74,89 @@
 	display: block;
 }
 
-.tab-pane h2 {
-	font-size: 24px;
-	margin-bottom: 8px;
+.tab-pane {
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__content,
+	&__image {
+		width: calc(50% - 2rem);
+	}
+
+	&__title {
+		font-size: 3.2rem;
+		font-weight: 600;
+		margin-bottom: 3rem;
+	}
+
+	&__quote {
+		font-size: 2rem;
+		margin-bottom: 3rem;
+		font-weight: 300;
+		font-style: italic;
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+
+		&-item {
+			display: flex;
+			margin-bottom: 2rem;
+			line-height: 1.5;
+
+			i {
+				color: var(--primary-color);
+				top: 4px;
+				position: relative;
+
+				margin-right: 2rem;
+			}
+		}
+	}
+
+	&__link {
+		display: inline-block;
+		font-size: 1.6rem;
+		font-weight: 600;
+		color: var(--primary-color);
+		text-decoration: none;
+		transition: all 0.3s ease;
+	}
+
+	&__image {
+		width: 100%;
+		max-width: 40rem;
+
+		img {
+			border-radius: 2rem;
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.tab-pane {
+		&__container {
+			flex-direction: column-reverse;
+		}
+
+		&__content {
+			width: 100%;
+			max-width: 50rem;
+		}
+
+		&__image {
+			width: 100%;
+			margin-bottom: 3rem;
+		}
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.tabs {
+		flex-direction: column;
+	}
 }

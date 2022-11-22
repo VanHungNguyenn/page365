@@ -58,35 +58,129 @@ const Business = () => {
 
 				<div className='tab-content'>
 					<div className={tab === 1 ? 'tab-pane active' : 'tab-pane'}>
-						<div className='tab-pane__content'>
-							<h3 className='tab-pane__title'>
-								Jhajing - Facebook Live Seller
-							</h3>
-							<p className='tab-pane__quote'>
-								"Para na din akong nag hire ng 3 admin staff
-								para imanage ang aking online business"
-							</p>
-						</div>
-						<div className='tab-pane__image'>
-							<img src={business1} alt='business' />
+						<div className='tab-pane__container'>
+							<div className='tab-pane__content'>
+								<h3 className='tab-pane__title'>
+									Jhajing - Facebook Live Seller
+								</h3>
+								<p className='tab-pane__quote'>
+									"Para na din akong nag hire ng 3 admin staff
+									para imanage ang aking online business"
+								</p>
+								<div className='tab-pane__list'>
+									<div className='tab-pane__list-item'>
+										<i className='fa-solid fa-circle-check'></i>
+										Pagkatype lang nila ng product code and
+										color ng particular item ay agad silang
+										nakreceive ng real time confirmation sa
+										inbox nila
+									</div>
+									<div className='tab-pane__list-item'>
+										<i className='fa-solid fa-circle-check'></i>
+										Alam niyo ba pag nagavail kayo ng
+										Page365 pwede nitong patakbuhin 24/7
+										round the clock ang ating online
+										business.
+									</div>
+								</div>
+								<a
+									href='https://jhajing.page365.net/'
+									className='tab-pane__link'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									See Jhajing's Page365
+								</a>
+							</div>
+							<div className='tab-pane__image'>
+								<img src={business1} alt='business' />
+							</div>
 						</div>
 					</div>
 					<div className={tab === 2 ? 'tab-pane active' : 'tab-pane'}>
-						<h2>Angular</h2>
-						<p>
-							Angular is an application design framework and
-							development platform for creating efficient and
-							sophisticated single-page apps.
-						</p>
+						<div className='tab-pane__container'>
+							<div className='tab-pane__content'>
+								<h3 className='tab-pane__title'>
+									McGregor Enterprise
+								</h3>
+								<p className='tab-pane__quote'>
+									Delicacies, Pastries, Sweets, at may Gadgets
+									pa
+								</p>
+								<div className='tab-pane__list'>
+									<div className='tab-pane__list-item'>
+										<i className='fa-solid fa-circle-check'></i>
+										This system because it simplifies your
+										online business
+									</div>
+									<div className='tab-pane__list-item'>
+										<i className='fa-solid fa-circle-check'></i>
+										Lalo na ang magandang features nito na
+										LIVE Selling. Isa rin sa maganda dito ay
+										ang Inventory Monitoring, Ordering
+										system, and Payment channel option
+									</div>
+									<div className='tab-pane__list-item'>
+										<i className='fa-solid fa-circle-check'></i>
+										Analytics on your sales, and connection
+										of Page365 to all social media platform
+										like FB Page, Messenger, Instagram
+									</div>
+								</div>
+								<a
+									href='https://jhajing.page365.net/'
+									className='tab-pane__link'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									Read full story
+								</a>
+							</div>
+							<div className='tab-pane__image'>
+								<img src={business2} alt='business' />
+							</div>
+						</div>
 					</div>
 					<div className={tab === 3 ? 'tab-pane active' : 'tab-pane'}>
-						<h2>Ember</h2>
-						<p>
-							Ember.js is a productive, battle-tested JavaScript
-							framework for building modern web applications. It
-							includes everything you need to build rich UIs that
-							work on any device.
-						</p>
+						<div className='tab-pane__container'>
+							<div className='tab-pane__content'>
+								<h3 className='tab-pane__title'>
+									Craftea Nutty - Tea leaf shop
+								</h3>
+								<p className='tab-pane__quote'>
+									"Matutulog ka lang pag gising mo may benta
+									ka na"
+								</p>
+								<div className='tab-pane__list'>
+									<div className='tab-pane__list-item'>
+										<i className='fa-solid fa-circle-check'></i>
+										Generating invoices for us and it’s
+										easier and faster to fulfill the orders!
+									</div>
+									<div className='tab-pane__list-item'>
+										<i className='fa-solid fa-circle-check'></i>
+										Storefront and complete ordering
+										procedure ni Page365, mas less mistake,
+										mas less effort sa order procedure
+									</div>
+									<div className='tab-pane__list-item'>
+										<i className='fa-solid fa-circle-check'></i>
+										My admins can access it at the same time
+									</div>
+								</div>
+								<a
+									href='https://jhajing.page365.net/'
+									className='tab-pane__link'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									Visit their shop
+								</a>
+							</div>
+							<div className='tab-pane__image'>
+								<img src={business3} alt='business' />
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
