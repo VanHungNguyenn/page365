@@ -37,7 +37,7 @@ const Header = () => {
 								Home
 							</NavLink>
 						</li>
-						<li className='header__nav-item'>
+						{/* <li className='header__nav-item'>
 							<div className='header__nav-link'>Feature</div>
 							<ul className='header__subnav-list'>
 								<li className='header__subnav-item'>
@@ -73,7 +73,7 @@ const Header = () => {
 									</NavLink>
 								</li>
 							</ul>
-						</li>
+						</li> */}
 						<li className='header__nav-item'>
 							<NavLink to='/pricing' className='header__nav-link'>
 								Pricing
@@ -84,11 +84,11 @@ const Header = () => {
 								Privacy
 							</NavLink>
 						</li>
-						<li className='header__nav-item'>
+						{/* <li className='header__nav-item'>
 							<NavLink to='/blogs' className='header__nav-link'>
 								Blogs
 							</NavLink>
-						</li>
+						</li> */}
 						<li className='header__nav-item'>
 							<NavLink to='/Contact' className='header__nav-link'>
 								Contact

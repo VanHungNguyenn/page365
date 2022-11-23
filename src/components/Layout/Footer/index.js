@@ -17,9 +17,9 @@ const Footer = () => {
 						<div className='footer__sitemap__item'>
 							<NavLink to='/privacy'>Privacy</NavLink>
 						</div>
-						<div className='footer__sitemap__item'>
+						{/* <div className='footer__sitemap__item'>
 							<NavLink to='/blogs'>Blogs</NavLink>
-						</div>
+						</div> */}
 						<div className='footer__sitemap__item'>
 							<NavLink to='/contact'>Contact</NavLink>
 						</div>
