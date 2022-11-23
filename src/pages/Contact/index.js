@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.scss'
 import { contact } from '~/constants/images'
+import ContactForm from '~/components/Layout/ContactForm'
 
 const Contact = () => {
 	return (
@@ -9,7 +10,9 @@ const Contact = () => {
 				<div className='wrapper contact__wrapper'>
 					<div className='contact__hero'>
 						<div className='contact__hero-content'>
-							<h4 className='contact__hero-title'>Contact Us</h4>
+							<h4 className='contact__hero-title'>
+								We'd love to hear from you!
+							</h4>
 							<div className='contact__hero-desc'>
 								Any questions for Page365? Need Tutorial?
 								<br />
@@ -56,6 +59,7 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
+			<ContactForm />
 		</>
 	)
 }

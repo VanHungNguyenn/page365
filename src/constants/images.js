@@ -23,6 +23,7 @@ import business2 from '~/images/business2.png'
 import business3 from '~/images/business3.png'
 
 import contact from '~/images/contact.png'
+import contactForm from '~/images/contact-form.png'
 
 const trustedList = [
 	trusted1,
@@ -51,4 +52,5 @@ export {
 	business2,
 	business3,
 	contact,
+	contactForm,
 }
