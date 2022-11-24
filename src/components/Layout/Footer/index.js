@@ -27,13 +27,11 @@ const Footer = () => {
 					<div className='footer__contact'>
 						<div className='footer__contact__item'>
 							<i className='fas fa-map-marker-alt'></i>
-							Softbaked Co., Ltd. 90 Fifty Fifth Plaza 4/F Unit
-							4L2, Thong Lo 2, Sukhumvit 55 Rd., Khlong Tan Nuea,
-							Wattana, Bangkok Thailand 10110
+							13 Station Rd, Knebworth, Hertfordshire, UK, SG3 6AP
 						</div>
 						<div className='footer__contact__item'>
 							<i className='fas fa-phone-alt'></i>
-							+63 927 222 6708
+							07977 050554
 						</div>
 						<div className='footer__contact__socials'>
 							<a
@@ -68,7 +66,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className='footer__rights'>
-					© 2022 Softbaked Co., Ltd. All rights reserved.
+					© 2022, 13 Station Rd. All rights reserved.
 				</div>
 			</div>
 		</footer>

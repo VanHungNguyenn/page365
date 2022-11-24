@@ -10,7 +10,7 @@ const Privacy = () => {
 					<em>Effective date: 20/11/2022</em>
 				</div>
 				<p>
-					We at AdEspresso know you care about how your personal
+					We at Page365 know you care about how your personal
 					information is used and shared, and we take your privacy
 					seriously. Please read the following to learn more about our
 					Privacy Policy.
@@ -25,12 +25,11 @@ const Privacy = () => {
 					</strong>
 				</p>
 				<p>
-					Remember that your use of AdEspresso’s Services is at all
-					times subject to the Terms of Use
-					(https://adespresso.com/tos), which incorporates this
-					Privacy Policy. Any terms we use in this Policy without
-					defining them have the definitions given to them in the
-					Terms of Use (https://adespresso.com/tos).
+					Remember that your use of Page365’s Services is at all times
+					subject to the Terms of Use (https://page365.com/tos), which
+					incorporates this Privacy Policy. Any terms we use in this
+					Policy without defining them have the definitions given to
+					them in the Terms of Use (https://page365.com/tos).
 				</p>
 				<h3>What does this Privacy Policy cover?</h3>
 				<p>
@@ -51,8 +50,8 @@ const Privacy = () => {
 					described below.
 				</p>
 				<p>
-					As noted in the Terms of Use (https://adespresso.com/tos),
-					we do not knowingly collect or solicit personal information
+					As noted in the Terms of Use (https://page365.com/tos), we
+					do not knowingly collect or solicit personal information
 					from anyone under the age of 13. If you are under 13, please
 					do not attempt to register for the Services or send any
 					personal information about yourself to us. If we learn that
@@ -60,14 +59,14 @@ const Privacy = () => {
 					age 13, we will delete that information as quickly as
 					possible. If you believe that a child under 13 may have
 					provided us personal information, please contact us at
-					privacy@adespresso.com
+					privacy@page365.com
 				</p>
-				<h3>Will AdEspresso ever change this Privacy Policy?</h3>
+				<h3>Will Page365 ever change this Privacy Policy?</h3>
 				<p>
 					We’re constantly trying to improve our Services, so we may
 					need to change this Privacy Policy from time to time as
 					well, but we will alert you to changes by placing a notice
-					on adespresso.com, by sending you an email, and/or by some
+					on page365.com, by sending you an email, and/or by some
 					other means. Please note that if you’ve opted not to receive
 					legal notice emails from us (or you haven’t provided us with
 					your email address), those legal notices will still govern
@@ -78,7 +77,7 @@ const Privacy = () => {
 					information we collect now is subject to the Privacy Policy
 					in effect at the time such information is collected.
 				</p>
-				<h3>What Information does AdEspresso Collect?</h3>
+				<h3>What Information does Page365 Collect?</h3>
 				<h4>Information You Provide to Us:</h4>
 				<p>
 					We receive and store any information you knowingly provide
@@ -108,7 +107,7 @@ const Privacy = () => {
 					communications with you more interesting and improve our
 					services. If you do not want to receive communications from
 					us, please indicate your preference by writing to
-					privacy@adespresso.com or using the unsubscribe link in each
+					privacy@page365.com or using the unsubscribe link in each
 					email.
 				</p>
 				<h4>Information Collected Automatically</h4>
@@ -161,7 +160,7 @@ const Privacy = () => {
 					after you leave our Services.
 				</p>
 				<h3>
-					Will AdEspresso Share Any of the Personal Information it
+					Will Page365 Share Any of the Personal Information it
 					Receives?
 				</h3>
 				<p>
@@ -291,12 +290,12 @@ const Privacy = () => {
 					acquired by a third party.
 				</p>
 				<p>
-					<strong>Protection of AdEspresso and Others:</strong> We
+					<strong>Protection of Page365 and Others:</strong> We
 					reserve the right to access, read, preserve, and disclose
 					any information that we reasonably believe is necessary to
 					comply with law or court order; enforce or apply our Terms
-					of Use https://adespresso.com/tos and other agreements; or
-					protect the rights, property, or safety of AdEspresso, our
+					of Use https://page365.com/tos and other agreements; or
+					protect the rights, property, or safety of Page365, our
 					employees, our users, or others.
 				</p>
 				<h3>Is Personal Information about me secure?</h3>
@@ -355,7 +354,7 @@ const Privacy = () => {
 					The information you can view, update, and delete may change
 					as the Services change. If you have any questions about
 					viewing or updating information we have on file about you,
-					please contact us at privacy@adespresso.com
+					please contact us at privacy@page365.com
 				</p>
 				<p>
 					Under California Civil Code Sections 1798.83-1798.84,
@@ -365,7 +364,7 @@ const Privacy = () => {
 					purposes, and providing contact information for such
 					affiliates and/or third parties. If you are a California
 					resident and would like a copy of this notice, please submit
-					a written request to: privacy@adespresso.com
+					a written request to: privacy@page365.com
 				</p>
 				<h3>What choices do I have?</h3>
 				<p>
@@ -378,9 +377,9 @@ const Privacy = () => {
 					explained above. When you update information, however, we
 					may maintain a copy of the unrevised information in our
 					records. You may request deletion of your account by writing
-					to privacy@adespresso.com. Some information may remain in
-					our records after your deletion of such information from
-					your account. We may use any aggregated data derived from or
+					to privacy@page365.com. Some information may remain in our
+					records after your deletion of such information from your
+					account. We may use any aggregated data derived from or
 					incorporating your Personal Information after you update or
 					delete it, but not in a manner that would identify you
 					personally.
@@ -389,7 +388,7 @@ const Privacy = () => {
 				<p>
 					If you have any questions or concerns regarding our privacy
 					policies, please send us a detailed message to
-					privacy@adespresso.com, and we will try to resolve your
+					privacy@page365.com, and we will try to resolve your
 					concerns.
 				</p>
 			</div>

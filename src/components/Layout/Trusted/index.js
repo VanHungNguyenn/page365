@@ -1,6 +1,6 @@
 import React from 'react'
 import './Trusted.scss'
-import { meta, trustedList } from '~/constants/images'
+import { meta } from '~/constants/images'
 
 const Trusted = () => {
 	return (
@@ -13,13 +13,13 @@ const Trusted = () => {
 				<div className='trusted__banner'>
 					<img src={meta} alt='trusted banner' />
 				</div>
-				<div className='trusted__logos'>
+				{/* <div className='trusted__logos'>
 					{trustedList.map((item, index) => (
 						<div className='trusted__logo' key={index}>
 							<img src={item} alt='trusted logo' />
 						</div>
 					))}
-				</div>
+				</div> */}
 			</div>
 		</div>
 	)
