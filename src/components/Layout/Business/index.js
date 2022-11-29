@@ -41,7 +41,7 @@ const Business = () => {
 		<div className='business'>
 			<div className='wrapper business__wrapper'>
 				<div className='business__title title'>
-					Page365 for a wide variety of businesses
+					Page365s for a wide variety of businesses
 				</div>
 				<div className='tabs'>
 					<div className={tab === 1 ? 'tab-item active' : 'tab-item'}>
@@ -78,7 +78,7 @@ const Business = () => {
 									<div className='tab-pane__list-item'>
 										<i className='fa-solid fa-circle-check'></i>
 										Alam niyo ba pag nagavail kayo ng
-										Page365 pwede nitong patakbuhin 24/7
+										Page365s pwede nitong patakbuhin 24/7
 										round the clock ang ating online
 										business.
 									</div>
@@ -89,7 +89,7 @@ const Business = () => {
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									See Jhajing's Page365
+									See Jhajing's Page365s
 								</a>
 							</div>
 							<div className='tab-pane__image'>
@@ -123,7 +123,7 @@ const Business = () => {
 									<div className='tab-pane__list-item'>
 										<i className='fa-solid fa-circle-check'></i>
 										Analytics on your sales, and connection
-										of Page365 to all social media platform
+										of Page365s to all social media platform
 										like FB Page, Messenger, Instagram
 									</div>
 								</div>
@@ -160,7 +160,7 @@ const Business = () => {
 									<div className='tab-pane__list-item'>
 										<i className='fa-solid fa-circle-check'></i>
 										Storefront and complete ordering
-										procedure ni Page365, mas less mistake,
+										procedure ni Page365s, mas less mistake,
 										mas less effort sa order procedure
 									</div>
 									<div className='tab-pane__list-item'>

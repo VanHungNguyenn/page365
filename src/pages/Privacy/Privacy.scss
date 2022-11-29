@@ -1,8 +1,14 @@
 .privacy {
 	padding: 8rem 0;
 
-	&__date {
-		margin-bottom: 3rem;
+	h1 {
+		font-size: 4rem;
+		margin-bottom: 2rem;
+	}
+
+	h2 {
+		font-size: 3rem;
+		margin-bottom: 2rem;
 	}
 
 	p {
@@ -26,12 +32,12 @@
 	}
 
 	li {
+		list-style-type: disc;
 		margin-bottom: 1rem;
-		display: flex;
-		align-items: center;
+	}
 
-		i {
-			margin-right: 1rem;
-		}
+	a {
+		color: var(--primary-color);
+		text-decoration: underline;
 	}
 }

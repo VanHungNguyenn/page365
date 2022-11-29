@@ -141,7 +141,7 @@ const Pricing = () => {
 									</td>
 								</tr>
 								<tr className='pricing__table-row'>
-									<td>Page365 store (Website)</td>
+									<td>Page365s store (Website)</td>
 									<td>
 										<i className='fa-solid fa-check'></i>
 									</td>

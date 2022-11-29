@@ -38,12 +38,12 @@ const statisticContentList = [
 	{
 		title: 'Messages',
 		number: '424M',
-		desc: 'Messages sent from Page365 to Messenger, Instagram DM, Line Official Account',
+		desc: 'Messages sent from Page365s to Messenger, Instagram DM, Line Official Account',
 	},
 	{
 		title: 'Online Bills',
 		number: '36.9M',
-		desc: 'Order Invoices made by Businesses through Page365',
+		desc: 'Order Invoices made by Businesses through Page365s',
 	},
 ]
 

@@ -14,7 +14,7 @@ const Contact = () => {
 								We'd love to hear from you!
 							</h4>
 							<div className='contact__hero-desc'>
-								Any questions for Page365? Need Tutorial?
+								Any questions for Page365s? Need Tutorial?
 								<br />
 								Feel free to reach out to us.
 							</div>

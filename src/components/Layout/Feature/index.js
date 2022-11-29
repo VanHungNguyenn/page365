@@ -17,7 +17,7 @@ const Feature = () => {
 					Facebook chatbot & Instagram integration
 				</div>
 				<p className='feature__desc'>
-					Page365 Chatbot can detect 8 frequency questions from the
+					Page365s Chatbot can detect 8 frequency questions from the
 					Facebook page comment, Messenger, and Instagram.
 				</p>
 				<button className='button button--large mb-5'>
